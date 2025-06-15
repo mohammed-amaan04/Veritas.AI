@@ -16,6 +16,8 @@ app = FastAPI(
 
 # Get verify token from environment variable
 VERIFY_TOKEN = os.getenv("VERIFY_TOKEN", "truthscope123")
+print("VERIFY_TOKEN from env:", VERIFY_TOKEN)
+
 
 @app.get("/")
 def root():
