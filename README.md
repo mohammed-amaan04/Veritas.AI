@@ -1,5 +1,7 @@
 # Instagram Webhook Backend
 
+![Lines of Code: count updates automatically from repository](https://tokei.rs/b1/github/mohammed-amaan04/Veritas.AI?category=code)
+
 FastAPI backend for handling Instagram webhook verification and payload processing.
 
 ## Features
